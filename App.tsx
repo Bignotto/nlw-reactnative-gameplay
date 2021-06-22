@@ -11,6 +11,7 @@ import { useFonts } from "expo-font";
 // import { Routes } from './src/routes';
 import { Background } from "./src/components/Background";
 import { SignIn } from "./src/screens/SignIn";
+import { Home } from "./src/screens/Home";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -32,7 +33,7 @@ export default function App() {
         translucent
       />
       {/* <Routes /> */}
-      <SignIn />
+      <Home />
     </Background>
   );
 }
